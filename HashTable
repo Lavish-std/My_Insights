@@ -1,0 +1,18 @@
+HashTable - 
+Data structure which uses key-value pairs.
+A hashing function is applies on the key which generates Index(memory location where it's matching value is stored}
+It provides quick operations like insertion, deletion, searching with a O(1) time complexity.
+
+HashMap is a class in java which have prebuilt methods that we can use.
+Methods-
+.containsKey() - checks if the given key exists in hashmao or not. 
+returns true if value is found and false  if not.
+Time complexity - O(1) 
+
+.containsValue() - checks if the given Value exists in hashmap or not.
+returns true if value is found and false  if not.
+Time complexity - O(n) 
+
+
+
+
