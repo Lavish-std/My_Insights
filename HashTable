@@ -1,6 +1,6 @@
 HashTable - 
 Data structure which uses key-value pairs.
-A hashing function is applies on the key which generates Index(memory location where it's matching value is stored}
+A hashing function is applied on the key which generates Index(memory location where it's matching value is stored}
 It provides quick operations like insertion, deletion, searching with a O(1) time complexity.
 
 HashMap is a class in java which have prebuilt methods that we can use.
