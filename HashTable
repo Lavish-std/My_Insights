@@ -5,13 +5,55 @@ It provides quick operations like insertion, deletion, searching with a O(1) tim
 
 HashMap is a class in java which have prebuilt methods that we can use.
 Methods-
-.containsKey() - checks if the given key exists in hashmao or not. 
+1) .containsKey() - checks if the given key exists in hashmao or not. 
 returns true if value is found and false  if not.
 Time complexity - O(1) 
 
-.containsValue() - checks if the given Value exists in hashmap or not.
+2) .containsValue() - checks if the given Value exists in hashmap or not.
 returns true if value is found and false  if not.
 Time complexity - O(n) 
+
+3) put(K key, V value) → Inserts/Updates a key-value pair
+map.put(1, "Apple");
+
+4) get(K key) → Retrieves the value for a given key
+map.get(1); // Returns "Apple"
+
+5) containsKey(K key) → Checks if a key exists
+map.containsKey(2); // Returns true or false
+
+6) containsValue(V value) → Checks if a value exists
+map.containsValue("Apple"); // Returns true or false
+
+7) remove(K key) → Deletes a key-value pair
+map.remove(1); // Removes the key 1 and its value
+
+8) size() → Returns the number of key-value pairs
+map.size(); // Returns the total count of pairs
+
+9) keySet() → Returns a Set of all keys
+Set<Integer> keys = map.keySet();
+Returns: {1, 2, 3} (if map has 3 keys).
+
+10) values() → Returns a Collection of all values
+Collection<String> values = map.values();
+Returns: ["Apple", "Banana", "Cherry"]
+
+11) entrySet() → Returns a Set of key-value pairs
+for (Map.Entry<Integer, String> entry : map.entrySet()) {
+    System.out.println(entry.getKey() + " -> " + entry.getValue());
+}
+
+1 -> Apple
+2 -> Banana
+3 -> Cherry
+
+12) isEmpty() → Checks if HashMap is empty
+map.isEmpty(); // Returns true if empty, false otherwise
+
+
+
+
 
 
 
