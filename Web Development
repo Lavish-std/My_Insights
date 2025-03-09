@@ -1,0 +1,12 @@
+HTML - HYPERTEXT MARKUP LANGUAGE
+HYPERTEXT - 
+it means that it's a document which is linked to other documents and those documents are linked to other documents hence creating a chain of document pages just like web pages or website.
+MARKUP - 
+highlights the content inside the document.
+for ex- <title> MY Goals of 2025 </title> here title tag highlights the title of our document.
+LANGUAGE - 
+html is a language itself. it got it's own syntax which you need to learn to be able to use it.
+
+HTML         CSS     JAVASCRIPT
+  |           |           |
+STRUCTURE   STYLE     BEHAVIOUR
