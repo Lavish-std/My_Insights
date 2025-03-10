@@ -10,3 +10,8 @@ html is a language itself. it got it's own syntax which you need to learn to be 
 HTML         CSS     JAVASCRIPT
   |           |           |
 STRUCTURE   STYLE     BEHAVIOUR
+
+HTML - it has components known as "tags" which are used to structre the content of web page.
+<html> - root tag of our html document which encloses every other tag inside it. it tells the web browser that it is a html document.
+<head> - this tag contains the web page title, metadata, scripts {link to javascript or internal script} and links to css document.
+<body> - every tag that structures the content of our page comes inside body tag.
