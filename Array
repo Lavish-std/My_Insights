@@ -1,0 +1,8 @@
+Tips to solve question on arrays-
+-first understand the question, ask  yourself - what does this problem  demands and provides. what do i need to find and what is given in question.
+-keep an eye on the conditions given in problem, they are the key to solution.
+-check wether the input array is sorted  or not.
+-always keep the indeces of array in mind when dealing with its problem.
+-run the dry code on paper before writing down the code.
+-think about the time and space complexity of your solution and the solution which problem is demanding. Does it matches? If not then you are doing something wrong.
+-always write code for base conditions.
