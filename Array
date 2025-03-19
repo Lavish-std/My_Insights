@@ -6,3 +6,6 @@ Tips to solve question on arrays-
 -run the dry code on paper before writing down the code.
 -think about the time and space complexity of your solution and the solution which problem is demanding. Does it matches? If not then you are doing something wrong.
 -always write code for base conditions.
+
+Tip when doing a question with xy plane/2d-
+-draw according to question statement and conditions
