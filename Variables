@@ -1,0 +1,52 @@
+Variable - 
+Variable is a container where we can store data  of various datatypes. 
+we can initialize the variable by defining it's datatype and 
+we can declare it by assigning a value in respective to it's datatype.
+
+Types of variables -
+
+1. Local Variables
+Declared inside a method, constructor, or block.
+Scope: Limited to the method or block where declared.
+Lifetime: Created when the method is invoked and destroyed when it ends.
+No default value; must be initialized before use.
+---------------
+public class Example {
+    void display() {
+        int x = 10; // Local variable
+        System.out.println(x);
+    }
+}
+----------------
+
+2. Instance Variables (Non-static Variables) - 
+Declared inside a class but outside any method.
+Scope: Available throughout the class and accessible via objects.
+Lifetime: Exists as long as the object exists.
+Default values: 0 for numbers, false for boolean, null for objects.
+---------------
+class Example {
+    int age = 25; // Instance variable
+
+    public static void main(String[] args) {
+        Example obj = new Example();
+        System.out.println(obj.age); // Accessing instance variable
+    }
+}
+--------------
+
+3. Static Variables (Class Variables) - 
+Declared with the static keyword inside a class.
+Scope: Shared among all instances of the class.
+Lifetime: Exists throughout the program execution.
+Default values: Same as instance variables.
+Memory: Stored in the method area.
+---------------
+class Example {
+    static int count = 0; // Static variable
+
+    public static void main(String[] args) {
+        System.out.println(Example.count); // Accessing static variable
+    }
+}
+--------------
