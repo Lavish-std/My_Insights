@@ -1,0 +1,28 @@
+Unix is an operating system which was developed by Ken Thompson and Dennis Ritchie in 1960s as a hobby with a team of  developers in AT & T bell labs
+It is derived from another OS known as MULTICS.
+It was initially named as Unics but later renamed as Unix.
+Dennis Ritchie later also created C programming.
+
+Unix provided a platform for users to interact with the hardware which was very needed at that time.
+It's developers made it open-source to be used freely by anyone and since then it was customised by many users as per to some specific needs
+which lead to multiples version of unix.
+Mac OS is also a descendant of unix.
+Linux was also made from available code of unix. Linux is not the same as unix but unix like code. 
+it has GNU which stands for "GNU not unix".
+
+
+
+we as a user can interact with the OS derived from Unix by using unix commands.
+Some basic Unix commands are -
+
+cd <directory>         - changes  directory
+cd ..                  - goes one directory up
+mkdir <directory>      - creates a new directory
+rmdir <directory>      - removes a directory but it's content remains
+pwd                    - prints the current working directory
+ls                     - lists all directories and file in the current directory
+ls -l                  - lists only files with detailed info.   
+ls -a                  - lists all files, including hidden files. 
+rm <file>              - Deletes a file.
+rm -r <directory>      - Deletes a directory and its contents.
+
