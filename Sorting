@@ -1,5 +1,4 @@
 1. Bubble - T O(n^2) 
-🔸 Idea:
 Repeatedly swap adjacent elements if they are in the wrong order. Largest elements "bubble" to the end.
 
 void bubbleSort(int[] arr) {                                                                  
