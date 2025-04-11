@@ -1,0 +1,12 @@
+1. innerText - displays the content which is displayed on our web browser. 
+it recognizes the content as plain text. so we can't use tags when assigning value to it. 
+for ex- element.innerText = "hi this is <b> Lavish Dixit </b>. output => hi this is <b> Lavish Dixit </b>.
+
+2. innerHTML - displays the content of browser with markup tags.
+it recognizes the content as HTML. so we can use tags when assigning value to it. 
+for ex- element.innerText = "hi this is <b> Lavish Dixit </b>. output => hi this is Lavish Dixit (in bold).
+
+3. textContent - displays the content taken from index.HTML. so content is shown as it is . 
+if some tags are hidden if some tags are styled display:none then their content won't show by innerHTML 
+but it would be displayed by textContent.
+
