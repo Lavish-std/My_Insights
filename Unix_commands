@@ -28,3 +28,15 @@ ls -a                  - lists all files, including hidden files.
 rm <file>              - Deletes a file.
 rm -r <directory>      - Deletes a directory and its contents.
 
+2. File Operations
+
+Command	                                 Description
+touch <file>	                      Creates a new empty file.
+cp <source> <destination>	          Copies a file or directory. Example: cp file.txt /home/user/
+mv <source> <destination>	          Moves or renames a file.
+rm <file>                         	Deletes a file.
+cat <file>	                        Displays the content of a file.
+less <file>	                        Allows scrolling through a file’s content.
+head -n <number> <file>            	Displays the first n lines of a file.
+tail -n <number> <file>	            Displays the last n lines of a file.
+
