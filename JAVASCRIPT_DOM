@@ -19,11 +19,47 @@ A Promise is like a contract:
 “I promise to give you a value later. You’ll either get the result ✅ or an error ❌.”
 
 Feature	Explanation
-✅ Handles Async                    Code	Promises are used to deal with code that runs in the future, like network requests.
+✅ Handles Async Code              	 Promises are used to deal with code that runs in the future, like network requests.
 🔄 Avoids Callback Hell	             Before Promises, async code used nested callbacks — which got messy. Promises make it cleaner.
 📚 Chaining with .then()          	 You can easily chain multiple operations that depend on each other.
 ❌ Error Handling with .catch()	     You can handle errors in a clean way without messy try/catch blocks.
 🚦 Has 3 States	                     pending, fulfilled, or rejected — always know what stage the task is in.
+
+async functions -
+these functions allows us to write async code(API calls,timers etc.) in a clean, readable way using await keyboard 
+it always returns a promise.
+
+await keyword - The await keyword is used inside an async function to pause the code until a promise is resolved (or rejected).
+
+Handling rejections -
+we use try and catch blocks just like we used them in functions for error handling
+here we use them to handle the rejectiions so the remaining code still runs as we need it.
+
+what  is API- 
+API stands for application programme interface. it acts as a medium for client side to interact with server.
+we can send a request to server's API and it will send us a response.
+
+what  is JSON - 
+JSON stands for javascript object notion. it's a dataformat which API's uses for response.
+basically API's sends the response in json format.
+before json format XML format was used but now rarely any api uses XML format.
+
+Accessing JSON Data - server sends the data in json format so to access that data from API we use a method known as parser.
+Parser  method allows us to convert the json data which is in string format into js object.]
+after converting string data to js object we can access the properties of that string data.
+
+Ajax - 
+Ajax stands for   javascript and XML 
+even tho it contains XML in it's name because before XML format was used 
+but now json format is used for response.
+
+HTTP verbs - 
+GET POST DELETE are some frequently used http methods in sending request and response while dealing with API's.
+
+
+
+
+
 
 
 
