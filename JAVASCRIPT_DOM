@@ -10,3 +10,21 @@ for ex- element.innerText = "hi this is <b> Lavish Dixit </b>. output => hi this
 if some tags are hidden if some tags are styled display:none then their content won't show by innerHTML 
 but it would be displayed by textContent.
 
+Promise -
+promise is an object in js and we pass a function inside it.
+that function has two parameters (resolve,reject) and inside that function we write what we want that promise to do.
+it provides the result of asynchronous programming (code that takes time and make u wait), 
+that result can be success or failure.
+A Promise is like a contract:
+“I promise to give you a value later. You’ll either get the result ✅ or an error ❌.”
+
+Feature	Explanation
+✅ Handles Async                    Code	Promises are used to deal with code that runs in the future, like network requests.
+🔄 Avoids Callback Hell	             Before Promises, async code used nested callbacks — which got messy. Promises make it cleaner.
+📚 Chaining with .then()          	 You can easily chain multiple operations that depend on each other.
+❌ Error Handling with .catch()	     You can handle errors in a clean way without messy try/catch blocks.
+🚦 Has 3 States	                     pending, fulfilled, or rejected — always know what stage the task is in.
+
+
+
+
